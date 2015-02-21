@@ -10,13 +10,18 @@ The tidy data set was obtained by merging the data sets of Training and Test sub
 
 The script run_analysis.R load al relevant data sets and rearange then on a silgle table. Then calculate the Average value of each variable goruping by Subject and Activity.
 
-## Vars
+## Variables's description
 
  The prefix 't' denote time
+
  The 'f' indicate frequency domain signals
+
  -XYZ' is used to denote 3-axial signals in the X, Y and Z directions
+
  -mean() indicate average
+
  -std() indicate standard deviation
+
 
 - subject : identifies the subject who performed the activity. Its range is from 1 to 30.
 - activity : Activity name
