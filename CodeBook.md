@@ -1,73 +1,57 @@
 # Code Book
 
+## Tidy data obtained from the "Human Activity Recognition Using Smartphones Dataset"
 
-- subject
-- activity
-- tBodyAcc- mean()- X
-- tBodyAcc- mean()- Y
-- tBodyAcc- mean()- Z
-- tGravityAcc- mean()- X
-- tGravityAcc- mean()- Y
-- tGravityAcc- mean()- Z
-- tBodyAccJerk- mean()- X
-- tBodyAccJerk- mean()- Y
-- tBodyAccJerk- mean()- Z
-- tBodyGyro- mean()- X
-- tBodyGyro- mean()- Y
-- tBodyGyro- mean()- Z
-- tBodyGyroJerk- mean()- X
-- tBodyGyroJerk- mean()- Y
-- tBodyGyroJerk- mean()- Z
-- tBodyAccMag- mean()
-- tGravityAccMag- mean()
-- tBodyAccJerkMag- mean()
-- tBodyGyroMag- mean()
-- tBodyGyroJerkMag- mean()
-- fBodyAcc- mean()- X
-- fBodyAcc- mean()- Y
-- fBodyAcc- mean()- Z
-- fBodyAccJerk- mean()- X
-- fBodyAccJerk- mean()- Y
-- fBodyAccJerk- mean()- Z
-- fBodyGyro- mean()- X
-- fBodyGyro- mean()- Y
-- fBodyGyro- mean()- Z
-- fBodyAccMag- mean()
-- fBodyBodyAccJerkMag- mean()
-- fBodyBodyGyroMag- mean()
-- fBodyBodyGyroJerkMag- mean()
-- tBodyAcc- std()- X
-- tBodyAcc- std()- Y
-- tBodyAcc- std()- Z
-- tGravityAcc- std()- X
-- tGravityAcc- std()- Y
-- tGravityAcc- std()- Z
-- tBodyAccJerk- std()- X
-- tBodyAccJerk- std()- Y
-- tBodyAccJerk- std()- Z
-- tBodyGyro- std()- X
-- tBodyGyro- std()- Y
-- tBodyGyro- std()- Z
-- tBodyGyroJerk- std()- X
-- tBodyGyroJerk- std()- Y
-- tBodyGyroJerk- std()- Z
-- tBodyAccMag- std()
-- tGravityAccMag- std()
-- tBodyAccJerkMag- std()
-- tBodyGyroMag- std()
-- tBodyGyroJerkMag- std()
-- fBodyAcc- std()- X
-- fBodyAcc- std()- Y
-- fBodyAcc- std()- Z
-- fBodyAccJerk- std()- X
-- fBodyAccJerk- std()- Y
-- fBodyAccJerk- std()- Z
-- fBodyGyro- std()- X
-- fBodyGyro- std()- Y
-- fBodyGyro- std()- Z
-- fBodyAccMag- std()
-- fBodyBodyAccJerkMag- std()
-- fBodyBodyGyroMag- std()
-- fBodyBodyGyroJerkMag- std()
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+
+More details can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The tidy data set was obtained by merging the data sets of Training and Test subjects using the script run_analysis.R.
+
+The script run_analysis.R load al relevant data sets and rearange then on a silgle table. Then calculate the Average value of each variable goruping by Subject and Activity.
+
+## Vars
+
+The prefix 't' to denote time
+-XYZ' is used to denote 3-axial signals in the X, Y and Z directions
+
+
+
+- subject : identifies the subject who performed the activity. Its range is from 1 to 30.
+- activity : Activity name
+- tBodyAcc-mean()-XYZ :  
+- tGravityAcc-mean()-XYZ
+- tBodyAccJerk-mean()-XYZ
+- tBodyGyro-mean()-XYZ
+- tBodyGyroJerk-mean()-XYZ
+- tBodyAccMag-mean()
+- tGravityAccMag-mean()
+- tBodyAccJerkMag-mean()
+- tBodyGyroMag-mean()
+- tBodyGyroJerkMag-mean()
+- fBodyAcc-mean()-XYZ
+- fBodyAccJerk-mean()-XYZ
+- fBodyGyro-mean()-XYZ
+- fBodyAccMag-mean()
+- fBodyBodyAccJerkMag-mean()
+- fBodyBodyGyroMag-mean()
+- fBodyBodyGyroJerkMag-mean()
+- tBodyAcc-std()-XYZ
+- tGravityAcc-std()-XYZ
+- tBodyAccJerk-std()-XYZ
+- tBodyGyro-std()-XYZ
+- tBodyGyroJerk-std()-XYZ
+- tBodyAccMag-std()
+- tGravityAccMag-std()
+- tBodyAccJerkMag-std()
+- tBodyGyroMag-std()
+- tBodyGyroJerkMag-std()
+- fBodyAcc-std()-XYZ
+- fBodyAccJerk-std()-XYZ
+- fBodyGyro-std()-XYZ
+- fBodyAccMag-std()
+- fBodyBodyAccJerkMag-std()
+- fBodyBodyGyroMag-std()
+- fBodyBodyGyroJerkMag-std()
  
 
